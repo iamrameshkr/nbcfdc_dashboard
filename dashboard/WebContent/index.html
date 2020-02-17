@@ -1,0 +1,181 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="NBCFDC">
+    <meta name="author" content="NBCFDC">
+    <meta name="generator" content="NBCFDC">
+    <title>NBCFDC Dashboard | Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+      <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  
+  <!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-0 navbar-light bg-white">
+  <div class="container">
+    <a href="index.html" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="images/nbc-logo.png" width="75" height="75" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+      <span class="text-uppercase font-weight-bold">NBCFDC</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarRight" aria-controls="navbarRight" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarRight" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a href="loan.html" class="nav-link">Loan Disbursement</a></li>
+        <li class="nav-item"><a href="skill.html" class="nav-link">Skill Development</a></li>
+       </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+ <div class="container">
+        <div class="br-pagetitle">
+         
+          <h5>Welcome to NBCFDC Dashboard</h5>
+          <p class="widget-subheading">Loan Disbursement & Skill Training at Glance</p>
+      </div>
+    </div>
+     
+    
+
+<div class="container" id="wrapper">
+ 
+ <!-- loan -->
+ <div class="mb-3 card">
+  <div class="card-header-tab card-header">
+      <div class="card-header-title font-size-lg text-capitalize font-weight-bold">
+         Loan Disbursement
+       </div>
+       
+     
+     </div>
+      
+      <div class="no-gutters row">
+     
+        <div class="col-sm-6 col-md-6 col-xl-6">
+            <div class="card no-shadow rm-border bg-transparent widget-chart text-left" >
+            
+              <div class="icon-wrapper rounded-circle">
+               <div class="icon-wrapper-bg opacity-10 bg-warning"></div>
+                 <i class="fas fa-rupee-sign"></i>
+              </div>
+              
+            <div class="widget-chart-content">
+             <div class="widget-subheading">Amount Disbursed</div>
+             <div class="widget-numbers" id="total_amount_db"></div>
+             <div class="widget-description opacity-8 text-focus"><div class="d-inline text-danger pr-1"><fa name="angle-down" _nghost-c2=""><i _ngcontent-c2="" aria-hidden="true" class="fa fa-angle-down"></i></fa><span class="pl-1">Amount is in Lakhs</span></div></div></div>
+             </div>
+          <div class="divider m-0 d-md-none d-sm-block"></div>
+       </div>
+       
+       <div class="col-sm-6 col-md-6 col-xl-6">
+         <div class="card no-shadow rm-border bg-transparent widget-chart text-left">
+          <div class="icon-wrapper rounded-circle">
+           <div class="icon-wrapper-bg opacity-9 bg-danger"></div>
+            <i class="fas fa-user-friends"></i></div>
+           <div class="widget-chart-content"><div class="widget-subheading">Beneficiaries Assisted</div>
+           <div class="widget-numbers"><span id="ben_assisted"></span></div><div class="widget-description opacity-8 text-focus"> <span class="text-info pl-1"><fa name="angle-down" _nghost-c2=""><i _ngcontent-c2="" aria-hidden="true" class="fa fa-angle-down"></i></fa><span class="pl-1">Number</span></span></div></div>
+           </div>
+          <div class="divider m-0 d-md-none d-sm-block"></div>
+       </div>
+          
+       </div>
+          
+          <div class="text-center d-block p-3 card-footer">
+             <a href="loan.html"  class="btn btn-primary btn-md active" role="button" aria-pressed="true">View Reports</a>
+           </div>
+    </div> <br>
+    <!-- loan -->
+    
+   
+    
+    <!-- skill development -->
+<div class="mb-3 card">
+  <div class="card-header-tab card-header">
+    <div class="card-header-title font-size-lg text-capitalize font-weight-bold">
+     <i class="header-icon lnr-charts icon-gradient bg-happy-green"></i>
+       Skill Development
+       </div>
+     
+     </div>
+      
+      <div class="no-gutters row">
+     
+        <div class="col-sm-6 col-md-6 col-xl-6">
+            <div class="card no-shadow rm-border bg-transparent widget-chart text-left" >
+            
+              <div class="icon-wrapper rounded-circle">
+               <div class="icon-wrapper-bg opacity-10 bg-warning"></div>
+                <i class="fas fa-rupee-sign"></i>
+              </div>
+              
+            <div class="widget-chart-content">
+             <div class="widget-subheading">Amount Sanctioned </div>
+              <div class="widget-numbers"><span id="amount_al"></span></div>
+             <div class="widget-description opacity-8 text-focus"><div class="d-inline text-danger pr-1"><fa name="angle-down" _nghost-c2=""><i _ngcontent-c2="" aria-hidden="true" class="fa fa-angle-down"></i></fa><span class="pl-1">Amount is in Lakhs</span></div></div></div>
+             </div>
+          <div class="divider m-0 d-md-none d-sm-block"></div>
+       </div>
+       
+        
+       <div class="col-sm-6 col-md-6 col-xl-6">
+         <div class="card no-shadow rm-border bg-transparent widget-chart text-left">
+          <div class="icon-wrapper rounded-circle">
+           <div class="icon-wrapper-bg opacity-9 bg-danger"></div>
+            <i class="fas fa-user-friends"></i>
+            </div>
+           <div class="widget-chart-content"><div class="widget-subheading">Trainees Trained</div><div class="widget-numbers"><span id="trainees_trained"></span></div><div class="widget-description opacity-8 text-focus"> <span class="text-info pl-1"><fa name="angle-down" _nghost-c2=""><i _ngcontent-c2="" aria-hidden="true" class="fa fa-angle-down"></i></fa><span class="pl-1">Number</span></span></div></div>
+           </div>
+          <div class="divider m-0 d-md-none d-sm-block"></div>
+       </div>
+          
+       
+          
+          </div>
+          
+          <div class="text-center d-block p-3 card-footer">
+             <a href="skill.html"  class="btn btn-primary btn-md active" role="button" aria-pressed="true">View Reports</a>
+           </div>
+    </div>
+    <!-- #skill development -->
+  </div>  
+  <!-- #container -->
+
+
+
+
+
+<div class="container">
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+         <small class="d-block mb-3 text-muted">&copy; 2017-2019 NBCFDC</small>
+      </div>
+    
+    </div>
+  </footer>
+ </div> 
+  
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/loan/cumulative_loan.js"></script>
+  <script src="js/skill/cumulative_skill.js"></script>
+    
+
+</body>
+</html>

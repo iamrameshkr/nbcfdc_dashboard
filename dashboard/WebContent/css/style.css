@@ -1,0 +1,393 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family:Helvetica!important;
+	background: rgba(255, 255, 255, 0.45);
+}
+
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+.navbar{
+  /*  background: linear-gradient(to right, rgb(179, 220, 237) 0%, rgb(41, 184, 229) 50%, rgb(105, 146, 162) 100%);*/
+   border-bottom: 1px solid #ced4da;
+}
+
+
+/*
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    border-bottom: 2px solid #1a73e8;
+}*/
+
+
+
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+.navbar-light .navbar-nav .active a::after {
+  border-bottom: 2px solid #1a73e8;
+  bottom: -17px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+
+.navbar-brand{
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 28px;	
+}
+
+.bg-header{
+	background-color: #0866C6;
+	padding: 25px;
+}
+
+
+
+
+
+#wrapper{
+	margin-top: 80px;
+	max-width: 960px;
+}
+
+.card.mb-3 {
+	    margin-bottom: 30px !important;
+}
+
+.card {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    border-width: 0;
+    transition: all .2s;
+   }
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(26, 54, 126, 0.125);
+    border-radius: 0.25rem;
+}
+
+
+.card-header {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0.625rem;
+    height: 3.5rem;
+}
+
+.card-header, .card-title {
+    text-transform: uppercase;
+    color: rgba(13, 27, 62, 0.7);
+    font-weight: bold;
+    font-size: 0.88rem;
+}
+
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    color: inherit;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(26, 54, 126, 0.125);
+}
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.widget-chart.text-left {
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.bg-transparent {
+    background: transparent !important;
+}
+
+
+.no-shadow {
+    box-shadow: 0 0 0 transparent !important;
+}
+
+.rm-border {
+    border-width: 0 !important;
+}
+
+
+.widget-chart.text-left .icon-wrapper {
+    min-width: 54px;
+    margin: 0 1rem 0 0;
+}
+
+
+.icon-wrapper {
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.icon-wrapper {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.icon-wrapper .icon-wrapper-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    opacity: .2;
+}
+
+
+
+.opacity-10 {
+    opacity: 1 !important;
+}
+
+
+.bg-warning {
+    background-color: #f7b924 !important;
+}
+
+.font-size-lg {
+    font-size: 1.1rem !important;
+}
+
+
+.icon-wrapper i {
+    margin: 0 auto;
+    font-size: 1.7rem;
+    position: relative;
+    z-index: 5;
+}
+
+
+.widget-chart.text-left .widget-chart-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 1;
+    position: relative;
+}
+
+.widget-chart .widget-subheading:first-child {
+    margin-top: 0;
+}
+
+.widget-chart {
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.widget-chart .widget-subheading {
+    margin: -0.5rem 0 0;
+    display: block;
+    opacity: .6;
+}
+
+.widget-chart .widget-subheading + .widget-numbers {
+    margin-top: 0.5rem;
+}
+
+
+.widget-chart.text-left .widget-numbers {
+    margin-left: 0;
+}
+
+.widget-chart .widget-numbers {
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: block;
+    line-height: 1;
+    margin: 1rem auto;
+}
+
+
+.widget-chart.text-left .widget-chart-content .widget-description {
+    align-self: flex-start;
+}
+
+.opacity-8 {
+    opacity: .8 !important;
+}
+
+.opacity-9 {
+    opacity: .9 !important;
+}
+
+
+.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1px;
+    overflow: hidden;
+    background: #e9ecef; 
+}
+
+.bg-danger {
+    background-color: #d92550 !important;
+}
+
+
+.btn.btn-pill.btn-wide, .btn.btn-pill {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.btn-primary.btn-shadow {
+    box-shadow: 0 0.125rem 0.625rem rgba(63, 106, 216, 0.4), 0 0.0625rem 0.125rem rgba(63, 106, 216, 0.5);
+}
+
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border-top: 1px solid rgba(26, 54, 126, 0.125);
+}
+
+.opacity-7 {
+    opacity: .7 !important;
+}
+
+
+
+
+
+
+.card-custom h5{
+	color: #0866C6 !important;
+}
+
+
+.card-custom{
+	border : 1px solid #ced4da;
+}
+
+
+.br-pagetitle {
+    padding: 10px 25px;
+    background-color: #fff;
+    border-bottom: 1px solid #ced4da;
+    margin-top: 30px;
+}
+
+
+.br-navtitle {
+    padding: 10px 25px;
+    background-color: #fff;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 30px;
+}
+
+
+.br-pagetitle h5 {
+   /* color: #0866C6;*/
+    font-weight: bold;
+}
+
+.br-pagetitle .icon {
+    color: #0866C6;
+}
+
+.br-pagetitle .icon {
+    font-size: 50px;
+    padding-right: 20px;
+    }
+
+    
+    
+    .br-pagebody {
+    margin-top: 50px;
+ /*   padding: 0 15px;*/
+}
+
+
+
+.br-section-wrapper {
+    box-shadow: none;
+    border: 1px solid #ced4da;
+}
+
+
+.br-section-wrapper {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 3px;
+}
+
+
+
+.br-section-label {
+    color: #343a40;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+
+.pd-t-30 {
+    padding-top: 30px;
+}
+
+
+.pd-b-20 {
+    padding-bottom: 20px;
+}
+
+
+.pd-x-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}*
+
+.bd {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+
+
+.table-wrapper{
+   margin-top: 60px;	
+}
+
+
+
+.dataTables_wrapper {
+    font-size: 14px;
+   }
