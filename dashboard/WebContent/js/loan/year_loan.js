@@ -1,5 +1,7 @@
 
-var webUrl ="http://localhost:8080/dashboard/api/"; 
+var webUrl ="http://localhost:8080/dashboard/api/";
+
+
 
 /* yearly amount disbursed */
 
@@ -49,10 +51,9 @@ $(document).ready(function(){
 	    	  labels: labels,
 	          datasets: [{
 	              label: 'Amount Disbursed (in Lakhs) ',
-	            //  minBarLength: 10,
 	              barPercentage:0.4,
 	              data: data,
-	              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+	              backgroundColor:["#E64A19","#689F38","#1976D2","#C2185B"],
 	              borderWidth: 1
 	          }]
 	      },
@@ -181,8 +182,8 @@ $(document).ready(function(){
    	              label: 'Beneficiaries Assisted',
    	              data: data,
    	              barPercentage:0.4,
-	              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-  	              borderWidth: 1
+	              backgroundColor:["#E64A19","#689F38","#1976D2","#C2185B"],
+   	              borderWidth: 1
    	          }]
    	      },
    	      options: {

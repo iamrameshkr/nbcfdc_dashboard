@@ -47,10 +47,9 @@ $(document).ready(function(){
 	    	  labels: labels,
 	          datasets: [{
 	              label: 'Amount Sanctioned (in Lakhs) ',
-	            //  minBarLength: 10,
 	              barPercentage:0.4,
 	              data: data,
-	              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+	              backgroundColor:["#E64A19","#689F38","#1976D2","#C2185B"],
 	              borderWidth: 1
 	          }]
 	      },
@@ -62,7 +61,7 @@ $(document).ready(function(){
 	                    },
 	                    scaleLabel: {
 	     	                display: true,
-	     	                labelString: 'Amount Disbursed (in Lakhs)'
+	     	                labelString: 'Amount Sanctioned (in Lakhs)'
 	     	              }
 	              }]
 	              
@@ -178,8 +177,8 @@ $(document).ready(function(){
    	              label: 'Trainees Trained (in Numbers)',
    	              data: data,
    	              barPercentage:0.4,
-	              backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-  	              borderWidth: 1
+	              backgroundColor:["#E64A19","#689F38","#1976D2","#C2185B"],
+   	              borderWidth: 1
    	          }]
    	      },
    	      options: {
@@ -190,7 +189,7 @@ $(document).ready(function(){
 	                    },
 	                    scaleLabel: {
 	     	                display: true,
-	     	                labelString: 'Beneficiaries Assisted (in Numbers)'
+	     	                labelString: 'Trainees Trained (in Numbers)'
 	     	              }
 	              }]	              
 	             

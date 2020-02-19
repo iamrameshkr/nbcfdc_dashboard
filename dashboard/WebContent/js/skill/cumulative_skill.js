@@ -1,7 +1,8 @@
 
 var webUrl ="http://localhost:8080/dashboard/api/"; 
 
-/* amount disbursed */
+
+/* amount sanctioned */
 
 $(document).ready(function(){
    	
@@ -22,7 +23,7 @@ $(document).ready(function(){
        });
    
    
-  
+
    
    function getCumulativeAmountSanctioned(jsonData) {
 	   
@@ -41,12 +42,6 @@ $(document).ready(function(){
 
    
  
-   
-   
-   
-   
-   
-   
    
    
    /* trainees trained */

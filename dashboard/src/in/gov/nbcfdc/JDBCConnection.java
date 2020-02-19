@@ -36,6 +36,7 @@ public class JDBCConnection {
 	 
 				DB_DRIVER_CLASS =props.getProperty("DB_DRIVER_CLASS");
 				DB_URL = props.getProperty("DB_URL");
+				System.out.println("DB_URL"+DB_URL);
 				USER = props.getProperty("USER");
 				PASS = props.getProperty("PASS");
 	 

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,7 +6,7 @@
     <meta name="description" content="NBCFDC">
     <meta name="author" content="NBCFDC">
     <meta name="generator" content="NBCFDC">
-    <title>NBCFDC Dashboard | Loan</title>
+    <title>NBCFDC Dashboard | Loan Cumulative</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -30,13 +29,13 @@
   
   
      <!-- NAVBAR-->
-<nav class="navbar navbar-expand-lg py-0 navbar-light bg-white">
+<nav class="navbar navbar-expand-lg py-0 navbar-light bg-white fixed-top">
   <div class="container">
     <a href="index.html" class="navbar-brand">
       <!-- Logo Image -->
       <img src="images/nbc-logo.png" width="75" height="75" alt="" class="d-inline-block align-middle mr-2">
       <!-- Logo Text -->
-      <span class="text-uppercase font-weight-bold">NBCFDC</span>
+      <span class="text-uppercase font-weight-bold">NBCFDC Dashboard</span>
     </a>
 
     <button type="button" data-toggle="collapse" data-target="#navbarRight" aria-controls="navbarRight" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
@@ -53,22 +52,18 @@
      
     
     
+    <div id="wrapper"> 
      <div class="container">
-        <div class="br-pagetitle">
-         
-        
-          <h5>Loan Disbursement</h5>
-          <!--  <p class="mg-b-0">Simple, clean and engaging HTML5 based JavaScript charts. An easy way to include animated, interactive graphs on your website.</p>-->
-       
-      </div>
-    </div>
+           
+            <!-- page-title -->
+            <div class="br-pagetitle">
+                <h5>Loan Disbursement</h5>
+              </div>
+  
 
-
-
-
+ <!-- nav-title -->
  
- <div class="container">
-        <div class="br-navtitle">
+ <div class="br-navtitle">
  <ul class="nav nav-pills">
   <li class="nav-item">
     <a class="nav-link active" href="loan.html">Cumulative</a>
@@ -90,13 +85,13 @@
   
  </ul>
 </div> 
-</div><br>
+
  
  
  
  
- <div class="container">
- 
+
+ <div id="content">
   <!-- loan -->
  <div class="mb-3 card">
   <div class="card-header-tab card-header">
@@ -144,7 +139,7 @@
         <!--      <a href="loan.html"  class="btn btn-primary btn-md active" role="button" aria-pressed="true">View Reports</a>-->
            </div>
     </div>
-  </div>
+ 
      
     <!-- loan -->
   
@@ -153,8 +148,6 @@
 
 
 <!-- amount disbursed --> 
-
-  <div class="container">
     <div class="br-pagebody">
     <div class="br-section-wrapper">
     <h6 class="br-section-label">Yearly Amount Disbursed (Last 4 Year)</h6>
@@ -177,14 +170,12 @@
          </div>   
     </div> 
     </div>
-   </div> 
- </div>  
+   </div><!-- amount disbursed --> 
+
 
    
   <!-- beneficiaries assisted --> 
-
-  <div class="container">
-    <div class="br-pagebody">
+   <div class="br-pagebody">
     <div class="br-section-wrapper">
     <h6 class="br-section-label">Yearly Beneficiaries Assisted (Last 4 Year)</h6>
       <div class="row">
@@ -206,28 +197,23 @@
          </div>   
     </div> 
     </div>
-   </div> 
- </div>  
+   </div><!-- #beneficiaries assisted --> 
+</div><!-- #content -->
   
   
-    
-   
-  <!-- #container -->
+      
+  <!-- #footer -->
 
-
-
-
-
-<div class="container">
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">
          <small class="d-block mb-3 text-muted">&copy; 2017-2019 NBCFDC</small>
       </div>
-    
-    </div>
+     </div>
   </footer>
- </div> 
+  
+ </div><!-- #container -->
+ </div><!-- #wrapper --> 
   
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/popper.min.js"></script>

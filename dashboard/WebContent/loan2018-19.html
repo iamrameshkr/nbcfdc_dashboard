@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -29,14 +28,14 @@
   <body>
   
   
-   <!-- NAVBAR-->
-<nav class="navbar navbar-expand-lg py-0 navbar-light bg-white">
+     <!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-0 navbar-light bg-white fixed-top">
   <div class="container">
     <a href="index.html" class="navbar-brand">
       <!-- Logo Image -->
       <img src="images/nbc-logo.png" width="75" height="75" alt="" class="d-inline-block align-middle mr-2">
       <!-- Logo Text -->
-      <span class="text-uppercase font-weight-bold">NBCFDC</span>
+      <span class="text-uppercase font-weight-bold">NBCFDC Dashboard</span>
     </a>
 
     <button type="button" data-toggle="collapse" data-target="#navbarRight" aria-controls="navbarRight" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
@@ -53,22 +52,21 @@
      
     
     
+    <div id="wrapper"> 
      <div class="container">
-        <div class="br-pagetitle">
-         
-          <h5>Loan Disbursement</h5>
-          <!--  <p class="mg-b-0">Simple, clean and engaging HTML5 based JavaScript charts. An easy way to include animated, interactive graphs on your website.</p>-->
-      </div>
-    </div>
+           
+            <!-- page-title -->
+            <div class="br-pagetitle">
+                <h5>Loan Disbursement</h5>
+              </div>
+  
 
-
-
+ <!-- nav-title -->
  
-  <div class="container">
-        <div class="br-navtitle">
+ <div class="br-navtitle">
  <ul class="nav nav-pills">
   <li class="nav-item">
-    <a class="nav-link " href="loan.html">Cumulative</a>
+    <a class="nav-link" href="loan.html">Cumulative</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="loan2019-20.html">Financial Year (2019-20)</a>
@@ -87,13 +85,13 @@
   
  </ul>
 </div> 
-</div><br>
 
-
-
-
- <div class="container">
  
+ 
+ 
+ 
+
+ <div id="content">
   <!-- loan -->
  <div class="mb-3 card">
   <div class="card-header-tab card-header">
@@ -137,23 +135,22 @@
        </div>
           
           <div class="text-right d-block p-3 card-footer text-info">
-          <i class="fas fa-calendar-week"></i> &nbsp;From: 01/04/2018 To: 31/03/2019 
+          <i class="fas fa-calendar-week"></i> &nbsp;From: 01/04/2018 To: 31/12/2019
         <!--      <a href="loan.html"  class="btn btn-primary btn-md active" role="button" aria-pressed="true">View Reports</a>-->
            </div>
     </div>
-  </div>
  
+     
+    <!-- loan -->
   
 
 
 
 
 <!-- amount disbursed --> 
-
-  <div class="container">
     <div class="br-pagebody">
     <div class="br-section-wrapper">
-    <h6 class="br-section-label">State Wise Amount Disbursed (FY 2018-19)</h6>
+    <h6 class="br-section-label">STATE WISE AMOUNT DISBURSED (FY 2018-19)</h6>
       <div class="row">
          <div class="col-md-12">
              <div class="bd pd-t-30 pd-b-20 pd-x-20">
@@ -164,7 +161,7 @@
                 <table id="amountTable" class="table table-striped table-bordered" style="width:100%">
 				     <thead>
 				          <tr>
-				              <th>State</th>
+				              <th>Financial Year</th>
 				              <th>Amount Disbursed (Rs. in Lakh)</th>
 				           </tr>
 				       </thead>
@@ -173,16 +170,14 @@
          </div>   
     </div> 
     </div>
-   </div> 
- </div>  
+   </div><!-- amount disbursed --> 
+
 
    
   <!-- beneficiaries assisted --> 
-
-  <div class="container">
-    <div class="br-pagebody">
+   <div class="br-pagebody">
     <div class="br-section-wrapper">
-    <h6 class="br-section-label">State Wise Beneficiaries Assisted (FY 2018-19)</h6>
+    <h6 class="br-section-label">STATE WISE BENEFICIARIES ASSISTED (FY 2018-19)</h6>
       <div class="row">
          <div class="col-md-12">
              <div class="bd pd-t-30 pd-b-20 pd-x-20">
@@ -193,8 +188,8 @@
                 <table id="benTable" class="table table-striped table-bordered" style="width:100%">
 				     <thead>
 				          <tr>
-				              <th>State</th>
-				              <th>Beneficiaries Assisted</th>
+				              <th>Financial Year</th>
+				              <th>Beneficiaries Assisted (in Numbers)</th>
 				           </tr>
 				       </thead>
                 </table>
@@ -202,39 +197,32 @@
          </div>   
     </div> 
     </div>
-   </div> 
- </div>  
+   </div><!-- #beneficiaries assisted --> 
+</div><!-- #content -->
   
   
-    
-   
-  <!-- #container -->
+      
+  <!-- #footer -->
 
-
-
-
-
-<div class="container">
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
       <div class="col-12 col-md">
          <small class="d-block mb-3 text-muted">&copy; 2017-2019 NBCFDC</small>
       </div>
-    
-    </div>
+     </div>
   </footer>
- </div> 
+  
+ </div><!-- #container -->
+ </div><!-- #wrapper --> 
   
   <script src="js/jquery-3.4.1.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/Chart.bundle.min.js"></script>
   <script src="js/jquery.dataTables.min.js"></script>
-   <script src="js/dataTables.bootstrap4.min.js"></script>
+  <script src="js/dataTables.bootstrap4.min.js"></script>
   <script src="js/loan/loan2018-19.js"></script>
-  
-  
-  
+   
     
    
 

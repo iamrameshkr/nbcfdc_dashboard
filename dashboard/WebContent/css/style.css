@@ -6,7 +6,7 @@ body{
 }
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   html {
@@ -16,16 +16,8 @@ html {
 
 
 .navbar{
-  /*  background: linear-gradient(to right, rgb(179, 220, 237) 0%, rgb(41, 184, 229) 50%, rgb(105, 146, 162) 100%);*/
    border-bottom: 1px solid #ced4da;
 }
-
-
-/*
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    border-bottom: 2px solid #1a73e8;
-}*/
-
 
 
 .navbar-nav > li {
@@ -45,22 +37,25 @@ html {
 .navbar-brand{
   padding-top: 0;
   padding-bottom: 0;
-  font-size: 28px;	
+  font-size: 25px;	
 }
-
-.bg-header{
-	background-color: #0866C6;
-	padding: 25px;
-}
-
-
 
 
 
 #wrapper{
-	margin-top: 80px;
-	max-width: 960px;
+	margin-top: 110px;
 }
+
+
+#content{
+	margin-top: 50px;
+}  
+
+  .br-pagetitle {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ced4da;
+    }
 
 .card.mb-3 {
 	    margin-bottom: 30px !important;
@@ -299,14 +294,6 @@ html {
 }
 
 
-.br-pagetitle {
-    padding: 10px 25px;
-    background-color: #fff;
-    border-bottom: 1px solid #ced4da;
-    margin-top: 30px;
-}
-
-
 .br-navtitle {
     padding: 10px 25px;
     background-color: #fff;
@@ -391,3 +378,7 @@ html {
 .dataTables_wrapper {
     font-size: 14px;
    }
+
+ 
+   
+   
